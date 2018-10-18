@@ -1,0 +1,100 @@
+h1 {
+    text-align: center;
+}
+
+.right {
+    float: right;
+    padding-right: 30px;
+}
+
+.row {
+    width: 70%;
+}
+
+
+.innerDiv {
+    border: 1px solid black;
+    min-height: 50px;
+    width: 70%;
+    overflow: hidden;
+    background-color: white;
+}
+
+div
+{
+    width: 100%;
+}
+
+body
+{
+    background-image: url(data:image/jpeg;base64,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);
+}
+
+.input
+{
+    background-color: cornsilk;
+}
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    color: white;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background: white;
+    color: black;
+}
+
+/* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+button
+{
+    background-color: black;
+    border: none;
+    color: white;
+}
+#contents {
+    display: block;
+    width: 100%;
+}
+
+#myposts
+{
+    display: block;
+    width:100%;
+
+}
+
+.centered {
+    display: block;
+    margin: auto;
+}
+
+.innerDiv
+{
+    border: 1px solid black;
+    min-height: 20px;
+}
+html, body
+{
+    height:100%;
+}
