@@ -32,7 +32,8 @@ body
 
 .input
 {
-    background-color: cornsilk;
+    background-color: white;
+    color:black;
 }
 
 /* The navigation bar */
@@ -68,9 +69,9 @@ body
 
 button
 {
-    background-color: black;
+    background-color: white;
     border: none;
-    color: white;
+    color: black;
 }
 #contents {
     display: block;

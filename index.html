@@ -15,16 +15,17 @@
         <a href="./index.html">Home</a>
         <a href="./profile.html">Profile</a>
         <a href="./topPosts.html">Trending</a>
+        <form id="userName" ng-submit="addUser()" style="float:right;"><input class="input" type="text" ng-model="user"><button type="submit">Choose username</button>
+            <br>
+
+        </form>
     </div>
     <p>Some text some text some text some text..</p>
     </div>
     <br>
-
+    <div class="right">Logged in as: <a href="./profile.html">{{name}}</a></div>
     <h1>Forum default</h1>
-    <form id="userName" ng-submit="addUser()" style="float:right;"><input class="input" type="text" ng-model="user"><button type="submit">Choose username</button>
-        <br>
-        <div class="right">Logged in as: <a href="./profile.html">{{name}}</a></div>
-    </form>
+
     <div class="row">
         <div class="col-md-6 col-md-offset-3 row">
             <div id="cwLI">
