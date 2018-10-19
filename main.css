@@ -74,7 +74,7 @@ body {
 
 button {
     background-color: white;
-    border: white;
+    border: 1px solid black;
     color: black;
 }
 
